@@ -26,6 +26,7 @@ pipeline {
                 sh '''
                     cd build
                     find index.html 
+                    npm test
                 '''
             }
         }
